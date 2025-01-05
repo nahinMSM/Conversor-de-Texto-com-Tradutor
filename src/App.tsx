@@ -6,7 +6,7 @@ import Voice from './components/Voice';
 import useVoices from './hooks/useVoices';
 import useSpeechActions from './hooks/useSpeechActions';
 import './styles/App.css';
-import './styles/Components.css';
+import './styles/components.css';
 
 const App: React.FC = () => {
   const [text, setText] = useState('');
